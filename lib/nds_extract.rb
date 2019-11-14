@@ -29,7 +29,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  list_of_directors = []
+  list_of_directors = [ ]
   row_count = 0 
   while row_count < source.length do
     list_of_directors << source[row_count][:name]
